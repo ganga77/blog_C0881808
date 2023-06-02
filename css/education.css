@@ -1,0 +1,178 @@
+body {
+    background-color: lightseagreen;
+
+}
+
+
+.education {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    
+}
+
+#header_top {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+#header_top img {
+    height: 1.5rem;
+}
+
+#nav_links {
+    display: flex;
+    gap: 3rem;
+}
+
+#nav_links a {
+    color: #454545;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#nav_links a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+        padding: 1.2rem 0;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #header_top span {
+        font-size: 1.3rem;
+    }
+
+    #nav-links a {
+        font-size: 0.9rem;
+        
+    }
+
+    #nav_links a:hover {
+        text-decoration: underline;
+        color: orange;
+    }
+}
+
+#hobbies-id {
+    font-size: 30px;
+}
+
+.parah {
+    display:inline-block;
+  }
+
+  .img-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .img-container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .img-container:hover .middle {
+    opacity: 1;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+  .footer-links ul {
+    list-style: none;
+    padding: 6px;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .footer-links a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  footer {
+    background-color: black;
+  }
+  .container {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+  }
+  .footer-logo {
+    font-size: 40px;
+    color: white;
+  }
+
+  .footer-text{
+    font-size: 25px;
+    color: white;
+  }
+
+  #note {
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+  }
+ 
+
+
+
